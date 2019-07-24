@@ -15,9 +15,9 @@ export class CalculatorComponent {
 
   constructor(fb: FormBuilder) {
     this.form = fb.group({
-      initValue: [],
-      multiplier: [],
-      times: [],
+      initValue: [6],
+      multiplier: [56],
+      times: [100000],
       result: [0]
     });
   }

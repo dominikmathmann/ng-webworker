@@ -1,7 +1,7 @@
 <form [formGroup]="form">
-  <input pInputText type="number" formControlName="initValue" placeholder="init" />
-  <input pInputText type="number" formControlName="multiplier" placeholder="multiplier" />
-  <input pInputText type="number" formControlName="times" placeholder="times" />
+  <input pInputText type="number" formControlName="initValue" placeholder="init" /> *
+  <input pInputText type="number" formControlName="multiplier" placeholder="multiplier" /> x
+  <input pInputText type="number" formControlName="times" placeholder="times" /> =
   <input pInputText type="text" formControlName="result" disabled="disabled" />
   <button pButton type="button" *ngIf="!byWebWorker" (click)="calculate()" label="submit"></button>
   <button pButton type="button" *ngIf="byWebWorker" (click)="calculateWW()" label="webworker"></button>

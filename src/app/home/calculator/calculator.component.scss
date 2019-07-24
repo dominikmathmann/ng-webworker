@@ -1,3 +1,15 @@
 form {
   padding: 0.2em;
+  display: flex;
+  align-items: center;
+
+  input {
+    margin: 0em 0.2em;
+    flex: 0 0 10em;
+  }
+
+  button {
+    margin: 0em 0.5em;
+    flex: 1 1 10em;
+  }
 }
