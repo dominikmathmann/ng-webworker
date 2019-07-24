@@ -3,7 +3,7 @@
 Angular Webworker
 Demo-Projekt zum Blog Beitrag auf:
 
-`https://javaeeblog.wordpress.com/`
+[https://javaeeblog.wordpress.com/](https://javaeeblog.wordpress.com/)
 
 ![Demo](/src/assets/images/demo.gif)
 
