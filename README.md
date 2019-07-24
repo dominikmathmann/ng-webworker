@@ -1,13 +1,13 @@
-# anuglar WebWorkers
+# anuglar WebWorker
 
-Angular Webworkers
+Angular Webworker
 Demo-Projekt zum Blog Beitrag auf:
 
 `https://javaeeblog.wordpress.com/`
 
 ![Demo](/src/assets/images/demo.gif)
 
-> Der Browser dient schon lange nicht mehr nur als einfaches Anzeigeinstrument für Webseiten. JavaScript übernimmt mehr und mehr Aufgaben die früher auf dem Server abgewickelt werden mussten, dank performanter Endgeräte aber zunehmend auch im Browser behandelt werden. Nun ist es aber so das JavaScirpt single-threaded ist und CPU-intensive Funktionalitäten zum einfrieden der GUI führen. Abhilfe? WebWorkers!
+> Der Browser dient schon lange nicht mehr nur als einfaches Anzeigeinstrument für Webseiten. JavaScript übernimmt mehr und mehr Aufgaben die früher auf dem Server abgewickelt werden mussten, dank performanter Endgeräte aber zunehmend auch im Browser behandelt werden. Nun ist es aber so das JavaScript single-threaded ist und CPU-intensive Funktionalitäten zum einfrieren der GUI führen. Abhilfe? WebWorker!
 
 ## Run
 
