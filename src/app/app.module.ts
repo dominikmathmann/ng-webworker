@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { PacmanLaneComponent } from './home/pacman-lane/pacman-lane.component';
 import { CalculatorComponent } from './home/calculator/calculator.component';
 
+import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,9 @@ import { CalculatorComponent } from './home/calculator/calculator.component';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    InputTextModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

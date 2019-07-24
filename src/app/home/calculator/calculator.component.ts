@@ -18,7 +18,7 @@ export class CalculatorComponent {
       initValue: [],
       multiplier: [],
       times: [],
-      result: [{ value: 0, disabled: true }]
+      result: [0]
     });
   }
 
@@ -38,9 +38,8 @@ export class CalculatorComponent {
     };
 
     this.form.get('result').setValue(this.form.get('initValue').value);
-    for (let i = 0; i < this.form.get('times').value; i++) {
-      worker.postMessage(this.form.value);
-    }
+    worker.postMessage(this.form.value);
+
   }
 }
 
