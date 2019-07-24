@@ -1,0 +1,42 @@
+$lane-height: 10vh;
+
+.root {
+  overflow: hidden;
+}
+
+.lane {
+  width: 120vw;
+  margin-left: -10vw;
+  border: 1px solid black;
+  height: $lane-height;
+  padding-top: $lane-height * 0.2;
+  position: relative;
+  overflow: hidden;
+}
+
+.pacman {
+  height: $lane-height * 0.7;
+  position: absolute;
+  animation-name: moveLeftToRight;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+
+  @media screen and (min-width: 1200px) {
+    animation-duration: 5s;
+  }
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: 0%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}

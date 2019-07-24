@@ -1,0 +1,7 @@
+<form [formGroup]="form" (ngSubmit)="calculate()">
+  <input type="number" formControlName="initValue" placeholder="init" />
+  <input type="number" formControlName="multiplier" placeholder="multiplier" />
+  <input type="number" formControlName="times" placeholder="times" />
+  <input type="text" formControlName="result" />
+  <button type="submit">submit</button>
+</form>
