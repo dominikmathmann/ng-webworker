@@ -1,7 +1,8 @@
-<form [formGroup]="form" (ngSubmit)="calculate()">
+<form [formGroup]="form">
   <input type="number" formControlName="initValue" placeholder="init" />
   <input type="number" formControlName="multiplier" placeholder="multiplier" />
   <input type="number" formControlName="times" placeholder="times" />
   <input type="text" formControlName="result" />
-  <button type="submit">submit</button>
+  <button type="submit" *ngIf="!byWebWorker" (click)="calculate()">submit</button>
+  <button type="submit" *ngIf="byWebWorker" (click)="calculateWW()">webworker</button>
 </form>
