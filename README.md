@@ -5,7 +5,9 @@ Demo-Projekt zum Blog Beitrag auf:
 
 `https://javaeeblog.wordpress.com/`
 
-> Umfangreiche Angular Projekte bestehen in aller Regel aus sehr vielen Komponenten und Service-Klassen die in eine sinnvolle Struktur gebracht werden müssen. Darüber hinaus macht es auch aus Performance Gründen Sinn die eigene Anwendung zu unterteilen. Workspaces und die Unterteilung in Module sind hier das Mittel der Wahl
+![Demo](/src/assets/images/demo.gif)
+
+> Der Browser dient schon lange nicht mehr nur als einfaches Anzeigeinstrument für Webseiten. JavaScript übernimmt mehr und mehr Aufgaben die früher auf dem Server abgewickelt werden mussten, dank performanter Endgeräte aber zunehmend auch im Browser behandelt werden. Nun ist es aber so das JavaScirpt single-threaded ist und CPU-intensive Funktionalitäten zum einfrieden der GUI führen. Abhilfe? WebWorkers!
 
 ## Run
 
