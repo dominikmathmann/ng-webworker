@@ -39,7 +39,6 @@ export class CalculatorComponent {
 
     this.form.get('result').setValue(this.form.get('initValue').value);
     worker.postMessage(this.form.value);
-
   }
 }
 

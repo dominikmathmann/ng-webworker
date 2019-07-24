@@ -1,4 +1,4 @@
-# anuglar WebWorker
+# Angular +  WebWorker
 
 Angular Webworker
 Demo-Projekt zum Blog Beitrag auf:
