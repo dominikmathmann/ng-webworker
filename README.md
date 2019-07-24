@@ -1,27 +1,26 @@
-# NgWebworkers
+# anuglar WebWorkers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
+Angular Webworkers
+Demo-Projekt zum Blog Beitrag auf:
 
-## Development server
+`https://javaeeblog.wordpress.com/`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> Umfangreiche Angular Projekte bestehen in aller Regel aus sehr vielen Komponenten und Service-Klassen die in eine sinnvolle Struktur gebracht werden müssen. Darüber hinaus macht es auch aus Performance Gründen Sinn die eigene Anwendung zu unterteilen. Workspaces und die Unterteilung in Module sind hier das Mittel der Wahl
 
-## Code scaffolding
+## Run
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Die Anwendung verwendet **npm** und **angular-cli**
 
-## Build
+build:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+> npm install
 
-## Running unit tests
+run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> npm serve
 
-## Running end-to-end tests
+open:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+> http://localhost:4200/
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+_by GEDOPLAN, [Dominik Mathmann](https://github.com/dominikmathmann)_
